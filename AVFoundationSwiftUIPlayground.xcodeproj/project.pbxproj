@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		926CC9432947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC9422947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift */; };
-		926CC9452947458D000358D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC9442947458D000358D6 /* ContentView.swift */; };
 		926CC9472947458E000358D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926CC9462947458E000358D6 /* Assets.xcassets */; };
 		926CC94A2947458E000358D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926CC9492947458E000358D6 /* Preview Assets.xcassets */; };
+		926CC95E294745D9000358D6 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC951294745D8000358D6 /* CameraError.swift */; };
+		926CC95F294745D9000358D6 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC952294745D8000358D6 /* FrameManager.swift */; };
+		926CC960294745D9000358D6 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC953294745D8000358D6 /* CameraManager.swift */; };
+		926CC961294745D9000358D6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC955294745D9000358D6 /* ContentViewModel.swift */; };
+		926CC962294745D9000358D6 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC957294745D9000358D6 /* FrameView.swift */; };
+		926CC963294745D9000358D6 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC958294745D9000358D6 /* ToggleButton.swift */; };
+		926CC964294745D9000358D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC959294745D9000358D6 /* ContentView.swift */; };
+		926CC965294745D9000358D6 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC95A294745D9000358D6 /* ControlView.swift */; };
+		926CC966294745D9000358D6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC95B294745D9000358D6 /* ErrorView.swift */; };
+		926CC967294745D9000358D6 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC95D294745D9000358D6 /* CGImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		926CC93F2947458D000358D6 /* AVFoundationSwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationSwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926CC9422947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationSwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
-		926CC9442947458D000358D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		926CC9462947458E000358D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926CC9492947458E000358D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		926CC951294745D8000358D6 /* CameraError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		926CC952294745D8000358D6 /* FrameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		926CC953294745D8000358D6 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		926CC955294745D9000358D6 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		926CC957294745D9000358D6 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		926CC958294745D9000358D6 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		926CC959294745D9000358D6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		926CC95A294745D9000358D6 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		926CC95B294745D9000358D6 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		926CC95D294745D9000358D6 /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,11 @@
 		926CC9412947458D000358D6 /* AVFoundationSwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				926CC950294745D8000358D6 /* Camera */,
+				926CC95C294745D9000358D6 /* Extensions */,
+				926CC954294745D8000358D6 /* ViewModels */,
+				926CC956294745D9000358D6 /* Views */,
 				926CC9422947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift */,
-				926CC9442947458D000358D6 /* ContentView.swift */,
 				926CC9462947458E000358D6 /* Assets.xcassets */,
 				926CC9482947458E000358D6 /* Preview Content */,
 			);
@@ -65,6 +86,44 @@
 				926CC9492947458E000358D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		926CC950294745D8000358D6 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				926CC951294745D8000358D6 /* CameraError.swift */,
+				926CC952294745D8000358D6 /* FrameManager.swift */,
+				926CC953294745D8000358D6 /* CameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		926CC954294745D8000358D6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				926CC955294745D9000358D6 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		926CC956294745D9000358D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				926CC957294745D9000358D6 /* FrameView.swift */,
+				926CC958294745D9000358D6 /* ToggleButton.swift */,
+				926CC959294745D9000358D6 /* ContentView.swift */,
+				926CC95A294745D9000358D6 /* ControlView.swift */,
+				926CC95B294745D9000358D6 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		926CC95C294745D9000358D6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				926CC95D294745D9000358D6 /* CGImageExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926CC9452947458D000358D6 /* ContentView.swift in Sources */,
 				926CC9432947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift in Sources */,
+				926CC961294745D9000358D6 /* ContentViewModel.swift in Sources */,
+				926CC963294745D9000358D6 /* ToggleButton.swift in Sources */,
+				926CC965294745D9000358D6 /* ControlView.swift in Sources */,
+				926CC95E294745D9000358D6 /* CameraError.swift in Sources */,
+				926CC964294745D9000358D6 /* ContentView.swift in Sources */,
+				926CC967294745D9000358D6 /* CGImageExtension.swift in Sources */,
+				926CC95F294745D9000358D6 /* FrameManager.swift in Sources */,
+				926CC962294745D9000358D6 /* FrameView.swift in Sources */,
+				926CC960294745D9000358D6 /* CameraManager.swift in Sources */,
+				926CC966294745D9000358D6 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +338,7 @@
 				DEVELOPMENT_TEAM = MKCTX8C9MY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I think this is obvious";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +368,7 @@
 				DEVELOPMENT_TEAM = MKCTX8C9MY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I think this is obvious";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
