@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F93F6010-8A53-44FF-A47B-6ADEFAA24274"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "066E6446-6AE1-49C4-BBEF-66E8523057F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVFoundationSwiftUIPlayground/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "saveImageToLibrary(capturedPhoto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1435B913-2389-4DBD-85B9-14BF43D1A57D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVFoundationSwiftUIPlayground/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "saveImageToLibrary(capturedPhoto:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1435B913-2389-4DBD-85B9-14BF43D1A57D - 900755efa1fa131f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.PHAuthorizationStatus) -&gt; () in AVFoundationSwiftUIPlayground.ContentView.saveImageToLibrary(capturedPhoto: __C.UIImage) -&gt; ()"
+                  moduleName = "AVFoundationSwiftUIPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthony/Code/Apple/Learning/AVFoundationSwiftUIPlayground/AVFoundationSwiftUIPlayground/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "1435B913-2389-4DBD-85B9-14BF43D1A57D - 900755efa1fa131f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.PHAuthorizationStatus) -&gt; () in AVFoundationSwiftUIPlayground.ContentView.saveImageToLibrary(capturedPhoto: __C.UIImage) -&gt; ()"
+                  moduleName = "AVFoundationSwiftUIPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthony/Code/Apple/Learning/AVFoundationSwiftUIPlayground/AVFoundationSwiftUIPlayground/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "522CC8B4-E4B2-4088-9FAF-A9B59F091F27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVFoundationSwiftUIPlayground/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "saveImageToLibrary(capturedPhoto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAD46240-ADA7-4DD1-8640-79170A203678"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVFoundationSwiftUIPlayground/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "saveImageToLibrary(capturedPhoto:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CAD46240-ADA7-4DD1-8640-79170A203678 - 453607c08b729dc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AVFoundationSwiftUIPlayground.ContentView.saveImageToLibrary(capturedPhoto: __C.UIImage) -&gt; ()"
+                  moduleName = "AVFoundationSwiftUIPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthony/Code/Apple/Learning/AVFoundationSwiftUIPlayground/AVFoundationSwiftUIPlayground/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "CAD46240-ADA7-4DD1-8640-79170A203678 - 21d8244884a00638"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.PHAuthorizationStatus) -&gt; () in AVFoundationSwiftUIPlayground.ContentView.saveImageToLibrary(capturedPhoto: __C.UIImage) -&gt; ()"
+                  moduleName = "AVFoundationSwiftUIPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anthony/Code/Apple/Learning/AVFoundationSwiftUIPlayground/AVFoundationSwiftUIPlayground/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

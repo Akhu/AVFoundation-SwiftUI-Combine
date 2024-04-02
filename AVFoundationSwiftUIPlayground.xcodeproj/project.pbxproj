@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9241870A2A1760DD00981168 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924187092A1760DC00981168 /* AVFoundation.framework */; };
 		926CC9432947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC9422947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift */; };
 		926CC9472947458E000358D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926CC9462947458E000358D6 /* Assets.xcassets */; };
 		926CC94A2947458E000358D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926CC9492947458E000358D6 /* Preview Assets.xcassets */; };
@@ -20,9 +21,11 @@
 		926CC965294745D9000358D6 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC95A294745D9000358D6 /* ControlView.swift */; };
 		926CC966294745D9000358D6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC95B294745D9000358D6 /* ErrorView.swift */; };
 		926CC967294745D9000358D6 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC95D294745D9000358D6 /* CGImageExtension.swift */; };
+		926CC9692948D230000358D6 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CC9682948D230000358D6 /* ImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		924187092A1760DC00981168 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		926CC93F2947458D000358D6 /* AVFoundationSwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationSwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926CC9422947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationSwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		926CC9462947458E000358D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 		926CC95A294745D9000358D6 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		926CC95B294745D9000358D6 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		926CC95D294745D9000358D6 /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		926CC9682948D230000358D6 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,17 +48,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9241870A2A1760DD00981168 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		924187082A1760DC00981168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				924187092A1760DC00981168 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		926CC9362947458D000358D6 = {
 			isa = PBXGroup;
 			children = (
 				926CC9412947458D000358D6 /* AVFoundationSwiftUIPlayground */,
 				926CC9402947458D000358D6 /* Products */,
+				924187082A1760DC00981168 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +87,7 @@
 				926CC95C294745D9000358D6 /* Extensions */,
 				926CC954294745D8000358D6 /* ViewModels */,
 				926CC956294745D9000358D6 /* Views */,
+				926CC959294745D9000358D6 /* ContentView.swift */,
 				926CC9422947458D000358D6 /* AVFoundationSwiftUIPlaygroundApp.swift */,
 				926CC9462947458E000358D6 /* Assets.xcassets */,
 				926CC9482947458E000358D6 /* Preview Content */,
@@ -111,7 +126,6 @@
 			children = (
 				926CC957294745D9000358D6 /* FrameView.swift */,
 				926CC958294745D9000358D6 /* ToggleButton.swift */,
-				926CC959294745D9000358D6 /* ContentView.swift */,
 				926CC95A294745D9000358D6 /* ControlView.swift */,
 				926CC95B294745D9000358D6 /* ErrorView.swift */,
 			);
@@ -122,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				926CC95D294745D9000358D6 /* CGImageExtension.swift */,
+				926CC9682948D230000358D6 /* ImageExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -203,6 +218,7 @@
 				926CC95E294745D9000358D6 /* CameraError.swift in Sources */,
 				926CC964294745D9000358D6 /* ContentView.swift in Sources */,
 				926CC967294745D9000358D6 /* CGImageExtension.swift in Sources */,
+				926CC9692948D230000358D6 /* ImageExtension.swift in Sources */,
 				926CC95F294745D9000358D6 /* FrameManager.swift in Sources */,
 				926CC962294745D9000358D6 /* FrameView.swift in Sources */,
 				926CC960294745D9000358D6 /* CameraManager.swift in Sources */,
@@ -335,10 +351,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AVFoundationSwiftUIPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = MKCTX8C9MY;
+				DEVELOPMENT_TEAM = 2KSK6YV8G7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "I think this is obvious";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Save your beautiful picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used to add picture captured with the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +369,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pickle-inc.AVFoundationSwiftUIPlayground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,10 +386,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AVFoundationSwiftUIPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = MKCTX8C9MY;
+				DEVELOPMENT_TEAM = 2KSK6YV8G7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "I think this is obvious";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Save your beautiful picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Used to add picture captured with the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -381,6 +404,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pickle-inc.AVFoundationSwiftUIPlayground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
